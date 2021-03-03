@@ -65,14 +65,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</ul>
 				<div class="o-section-home__select-gender m-select-gender">
 					<div
-						id="btnMujer"
 						class="m-select-gender__button-gender a-button-gender bodyClass dietAnswer"
 						>
 						<div class="a-button-gender__background">
 							<div class="a-button-gender__circle a-button-gender__circle--1"></div>
 							<div class="a-button-gender__circle a-button-gender__circle--2"></div>
 						</div>
-						<div class="a-button-gender__content">
+						<div class="a-button-gender__content" onClick="selectWomen()">
 							<div class="a-button-gender__circle a-button-gender__circle--3"></div>
 							<img src="<?=base_url().'assets/img/woman.svg'?>" class="a-icon a-button-gender__icon __white" />
 							<div class="a-button-gender__text">Mujer</div>
@@ -80,14 +79,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 					<div class="m-select-gender__text">o</div>
 					<div
-						id="btnHombre" 
 						class="m-select-gender__button-gender a-button-gender--man a-button-gender bodyClass dietAnswer"
 						>
 						<div class="a-button-gender__background">
 							<div class="a-button-gender__circle a-button-gender__circle--1"></div>
 							<div class="a-button-gender__circle a-button-gender__circle--2"></div>
 						</div>
-						<div class="a-button-gender__content">
+						<div class="a-button-gender__content" onClick="selectMen()">
 							<div class="a-button-gender__circle a-button-gender__circle--3"></div>
 							<img src="<?=base_url().'assets/img/men.svg'?>" class="a-icon a-button-gender__icon __white" />
 							<div class="a-button-gender__text">Hombre</div>

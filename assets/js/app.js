@@ -7,14 +7,16 @@ document.addEventListener('load', function () {
       behavior: 'smooth',
     });
   }, true)
-  // Agregando el evento inicial (HOMBRES)
-  var btnHombre = document.getElementById('btnHombre');
-  btnHombre.addEventListener('click', function () {
-    console.log('Hombre')
-  });
-  // Agregando el evento inicial (MUJERES)
-  var btnMujer = document.getElementById('btnMujer');
-  btnMujer.addEventListener('click', function () {
-    console.log('Mujer')
-  });
 }, true);
+
+function selectMen () {
+  console.log('------------------------------------');
+  console.log('Hombre');
+  console.log('------------------------------------');
+}
+
+function selectWomen () {
+  console.log('------------------------------------');
+  console.log('Mujer');
+  console.log('------------------------------------');
+}
