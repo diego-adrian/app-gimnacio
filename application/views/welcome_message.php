@@ -359,8 +359,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 				<div class="o-footer__copy">
 					<div>2021 TODOS LOS DERECHOS RESERVADOS</div>
-					<div>Diseñado por <a href="//appsforfit.com" class="m-nav-footer__item" target="_blank"
-							rel="noopener">AppsForFit</a></div>
+					<div>Diseñado por <a href="//appsforfit.com" class="m-nav-footer__item" target="_blank" rel="noopener">AppsForFit</a></div>
 				</div>
 			</div>
 		</div>
