@@ -142,9 +142,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 				</div>
 				<div class="text-center mt-8 mb-8 pr-4 pl-4">
-					<div class="m-block-jumbotron__button a-button--with-gradient a-button--gigant a-button--with-icon a-button cursor-pointer"
+					<div id="btn-empezar" class="m-block-jumbotron__button a-button--with-gradient a-button--gigant a-button--with-icon a-button cursor-pointer"
 						style="visibility: visible;">
-						<a href="#quiz-top" class="a-button__link">
+						<a class="a-button__link">
 							<span class="a-button__text">Empezar</span>
 						</a>
 					</div>
@@ -155,20 +155,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="o-footer__content">
 						<nav class="o-footer__nav-footer m-nav-footer">
 							<div class="o-footer-links-wrap">
-								<a href="/faq" class="m-nav-footer__item">FAQ</a>
+								<a href="#" class="m-nav-footer__item">FAQ</a>
 							</div>
 							<div class="o-footer-links-wrap">
-								<a href="/terms" class="m-nav-footer__item">Condiciones Generales</a>
+								<a href="#" class="m-nav-footer__item">Condiciones Generales</a>
 							</div>
 							<div class="o-footer-links-wrap">
-								<a href="/data-protection-policy" target="_blank" class="m-nav-footer__item">Política de Protección de
+								<a href="#" target="_blank" class="m-nav-footer__item">Política de Protección de
 									Datos Personales</a>
 							</div>
 							<div class="o-footer-links-wrap">
-								<a href="/cookie-policy" target="_blank" class="m-nav-footer__item">Cookie policy</a>
+								<a href="#" target="_blank" class="m-nav-footer__item">Cookie policy</a>
 							</div>
 							<div class="o-footer-links-wrap">
-								<a href="/contacts" class="m-nav-footer__item">Contactos</a>
+								<a href="#" class="m-nav-footer__item">Contactos</a>
 								<div>
 						</nav>
 						<div class="o-footer__logo">
@@ -182,6 +182,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 				</div>
 			</div>
+			<script src="<?=base_url().'assets/js/app.js'?>"></script>
 </body>
 
 </html>

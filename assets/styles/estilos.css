@@ -1379,6 +1379,7 @@ a.hl:hover {
 	width: 100%;
 	height: 100%;
 	content: "";
+	color: #FFF;
 	border-radius: 30px;
 	opacity: 0;
 	transition: opacity .35s ease
@@ -1453,12 +1454,12 @@ a.hl:hover {
 	color: #fff
 }
 
-.a-button--with-gradient:hover:not(.a-button--disabled) {
+.a-button--with-gradient:hover {
 	border-color: #91ef31;
 	box-shadow: none;
 }
 
-.a-button--with-gradient:hover:not(.a-button--disabled):after {
+.a-button--with-gradient:hover:after {
 	opacity: 1
 }
 
@@ -3411,12 +3412,6 @@ a.hl:hover {
 	background-color: hsla(0, 0%, 100%, .3)
 }
 
-.m-progress-bar__line-inner {
-	height: 100%;
-	width: 0;
-	background: #91ef31
-}
-
 .m-progress-bar__dots {
 	position: relative;
 	display: flex;
@@ -4882,6 +4877,18 @@ a.hl:hover {
 .a-button--with-icon .a-button__link {
 	padding-right: 60px;
 	padding-left: 22px;
+}
+
+.a-button__link {
+	position: relative;
+	display: inline-flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 0 17px;
+	z-index: 1;
+	cursor: pointer
 }
 
 .a-button--with-icon.a-button--icon-first .a-button__link {
