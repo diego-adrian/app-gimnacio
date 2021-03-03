@@ -68,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						class="m-select-gender__button-gender js-select-gender-button  a-button-gender js-button-gender bodyClass dietAnswer"
 						data-key="1166" data-value="214" data-body-class-value="woman-theme" data-pixel-event="User Profile"
 						data-pixel-key="female" data-pixel-value="1">
-						<div class="a-button-gender__background">
+						<div class="a-button-gender__background" id="btnMujer">
 							<div class="a-button-gender__circle a-button-gender__circle--1 js-button-circle"></div>
 							<div class="a-button-gender__circle a-button-gender__circle--2 js-button-circle"></div>
 						</div>
@@ -83,7 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						class="m-select-gender__button-gender js-select-gender-button a-button-gender--man a-button-gender js-button-gender bodyClass dietAnswer"
 						data-key="1166" data-value="213" data-body-class-value="men-theme" data-pixel-event="User Profile"
 						data-pixel-key="male" data-pixel-value="1">
-						<div class="a-button-gender__background">
+						<div class="a-button-gender__background" id="btnHombre">
 							<div class="a-button-gender__circle a-button-gender__circle--1 js-button-circle"></div>
 							<div class="a-button-gender__circle a-button-gender__circle--2 js-button-circle"></div>
 						</div>
