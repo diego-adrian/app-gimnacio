@@ -1,22 +1,23 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<title>App Gimnasio</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href="<?=base_url().'assets/styles/estilos.css'?>">
 </head>
+
 <body>
-<div class="o-header">
+	<div class="o-header">
 		<div class="container">
 			<div class="o-header__content">
 				<div class="o-header__left">
 					<a class="o-header__logo a-logo">
-						<svg class="a-icon a-logo__icon">
-							<use xlink:href="<?=base_url()?>assets/img/sprite.svg#icon-keto-logo"></use>
-						</svg>
+						<img id="Logo" class="a-icon a-logo__icon __white" src="<?=base_url().'assets/img/logo.svg'?>">
 					</a>
 				</div>
 				<div id="contacts-container" style="display: none">
@@ -34,23 +35,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<a href="/logins">Iniciar sesión</a>
 							</div>
 						</div>
-						<script type="91a1fee4b9117ff5aa7b5f89-text/javascript">
-							function activeMenu(event) {
-								document.querySelector('body').classList.toggle('noscroll', event.target.checked);
-							}
-
-							function logout() {
-								store.remove('answers');
-								document.getElementById('logout-form').submit();
-							}
-
-						</script>
 					</div>
 					<div class="o-header__right js-contacts-button">
 						<div class="o-header__online-bar m-online-bar">
 							<a class="a-online-bar__item" href="/contacts">
 								<svg class="a-icon a-logo__icon">
-									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="<?=base_url()?>assets/img/sprite.svg#icon-icon-contacts"></use>
+									<use xmlns:xlink="http://www.w3.org/1999/xlink"
+										xlink:href="<?=base_url()?>assets/img/sprite.svg#icon-icon-contacts"></use>
 								</svg>
 								<div class="m-online-bar__text text-center domain-ssl">
 									Contactos
@@ -63,17 +54,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 	<div class="main-content">
-		<div class="o-section-home section-first" style="background-image: url(https://storage.appsforfit.com/files/7U3QwfIyOJF7nPIx56cslhd64HSshEFeKoEVY7Wa.jpeg)">
-		<div class="container" id="quiz-top">
-			<h2 class="o-section-home__text-title a-text-title">CONSIGUE TU DIETA KETO</h2>
-			<ul class="m-list-reasons homepage-list">
-				<li><div>1.</div>Selecciona tu género</li>
-				<li><div>2.</div>Escoge tus alimentos favoritos</li>
-				<li><div>3.</div>Categoriza tu estilo de vida</li>
-				<li><div>4.</div>Entra tus medidas</li>
-				<li><div>5.</div>Consigue tu plan personalizado</li>
-			</ul>
-			<div class="o-section-home__select-gender m-select-gender js-select-gender">
+		<div class="o-section-home section-first"
+			style="background-image: url(https://storage.appsforfit.com/files/7U3QwfIyOJF7nPIx56cslhd64HSshEFeKoEVY7Wa.jpeg)">
+			<div class="container" id="quiz-top">
+				<h2 class="o-section-home__text-title a-text-title">CONSIGUE TU DIETA KETO</h2>
+				<ul class="m-list-reasons homepage-list">
+					<li>
+						<div>1.</div>Selecciona tu género
+					</li>
+					<li>
+						<div>2.</div>Escoge tus alimentos favoritos
+					</li>
+					<li>
+						<div>3.</div>Categoriza tu estilo de vida
+					</li>
+					<li>
+						<div>4.</div>Entra tus medidas
+					</li>
+					<li>
+						<div>5.</div>Consigue tu plan personalizado
+					</li>
+				</ul>
+				<div class="o-section-home__select-gender m-select-gender js-select-gender">
 					<div data-href="/2"
 						class="m-select-gender__button-gender js-select-gender-button  a-button-gender js-button-gender bodyClass dietAnswer"
 						data-key="1166" data-value="214" data-body-class-value="woman-theme" data-pixel-event="User Profile"
@@ -330,41 +332,45 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 				</div>
 				<div class="o-footer">
-		<div class="container">
-			<div class="o-footer__content">
-				<nav class="o-footer__nav-footer m-nav-footer">
-					<div class="o-footer-links-wrap">
-						<a href="/faq" class="m-nav-footer__item">FAQ</a>
+					<div class="container">
+						<div class="o-footer__content">
+							<nav class="o-footer__nav-footer m-nav-footer">
+								<div class="o-footer-links-wrap">
+									<a href="/faq" class="m-nav-footer__item">FAQ</a>
+								</div>
+								<div class="o-footer-links-wrap">
+									<a href="/terms" class="m-nav-footer__item">Condiciones Generales</a>
+								</div>
+								<div class="o-footer-links-wrap">
+									<a href="/data-protection-policy" target="_blank" class="m-nav-footer__item">Política de Protección de
+										Datos
+										Personales</a>
+								</div>
+								<div class="o-footer-links-wrap">
+									<a href="/cookie-policy" target="_blank" class="m-nav-footer__item">Cookie policy</a>
+								</div>
+								<div class="o-footer-links-wrap">
+									<a href="/contacts" class="m-nav-footer__item">
+										Contactos
+									</a>
+									<div>
+							</nav>
+							<div class="o-footer__logo">
+								<svg class="a-icon o-footer__icon">
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/keto/sprite.svg#icon-keto-logo">
+									</use>
+								</svg>
+							</div>
+							<div class="o-footer__copy">
+								<div>2021 TODOS LOS DERECHOS RESERVADOS</div>
+								<div>Diseñado por <a href="//appsforfit.com" class="m-nav-footer__item" target="_blank"
+										rel="noopener">AppsForFit</a></div>
+							</div>
+						</div>
 					</div>
-					<div class="o-footer-links-wrap">
-						<a href="/terms" class="m-nav-footer__item">Condiciones Generales</a>
-					</div>
-					<div class="o-footer-links-wrap">
-						<a href="/data-protection-policy" target="_blank" class="m-nav-footer__item">Política de Protección de Datos
-							Personales</a>
-					</div>
-					<div class="o-footer-links-wrap">
-						<a href="/cookie-policy" target="_blank" class="m-nav-footer__item">Cookie policy</a>
-					</div>
-					<div class="o-footer-links-wrap">
-						<a href="/contacts" class="m-nav-footer__item">
-							Contactos
-						</a>
-						<div>
-				</nav>
-				<div class="o-footer__logo">
-					<svg class="a-icon o-footer__icon">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/keto/sprite.svg#icon-keto-logo"></use>
-					</svg>
-				</div>
-				<div class="o-footer__copy">
-					<div>2021 TODOS LOS DERECHOS RESERVADOS</div>
-					<div>Diseñado por <a href="//appsforfit.com" class="m-nav-footer__item" target="_blank" rel="noopener">AppsForFit</a></div>
 				</div>
 			</div>
-		</div>
-	</div>
-	</div>
 
 </body>
+
 </html>
