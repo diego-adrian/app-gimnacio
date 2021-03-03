@@ -10,11 +10,11 @@ document.addEventListener('load', function () {
   // Agregando el evento inicial (HOMBRES)
   var btnHombre = document.querySelector('#btnHombre');
   btnHombre.addEventListener('click', function () {
-    console.log('HOmbre')
-  }, true);
+    console.log('Hombre')
+  }, false);
   // Agregando el evento inicial (MUJERES)
   var btnMujer = document.querySelector('#btnMujer');
   btnMujer.addEventListener('click', function () {
     console.log('Mujer')
-  }, true);
+  }, false);
 }, true);

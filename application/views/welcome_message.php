@@ -44,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="main-content">
 		<div class="o-section-home section-first"
 			style="background-image: url(<?=base_url().'assets/img/background.jpeg'?>)">
-			<div class="container" id="quiz-top">
+			<div class="container">
 				<h2 class="o-section-home__text-title a-text-title">CONSIGUE TU DIETA</h2>
 				<ul class="m-list-reasons homepage-list">
 					<li>
@@ -64,11 +64,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</li>
 				</ul>
 				<div class="o-section-home__select-gender m-select-gender js-select-gender">
-					<div data-href="/2"
+					<div
+						id="btnMujer"
 						class="m-select-gender__button-gender js-select-gender-button  a-button-gender js-button-gender bodyClass dietAnswer"
-						data-key="1166" data-value="214" data-body-class-value="woman-theme" data-pixel-event="User Profile"
-						data-pixel-key="female" data-pixel-value="1">
-						<div class="a-button-gender__background" id="btnMujer">
+						>
+						<div class="a-button-gender__background">
 							<div class="a-button-gender__circle a-button-gender__circle--1 js-button-circle"></div>
 							<div class="a-button-gender__circle a-button-gender__circle--2 js-button-circle"></div>
 						</div>
@@ -79,11 +79,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</div>
 					</div>
 					<div class="m-select-gender__text">o</div>
-					<div data-href="/2"
+					<div
+						id="btnHombre" 
 						class="m-select-gender__button-gender js-select-gender-button a-button-gender--man a-button-gender js-button-gender bodyClass dietAnswer"
-						data-key="1166" data-value="213" data-body-class-value="men-theme" data-pixel-event="User Profile"
-						data-pixel-key="male" data-pixel-value="1">
-						<div class="a-button-gender__background" id="btnHombre">
+						>
+						<div class="a-button-gender__background">
 							<div class="a-button-gender__circle a-button-gender__circle--1 js-button-circle"></div>
 							<div class="a-button-gender__circle a-button-gender__circle--2 js-button-circle"></div>
 						</div>
@@ -177,7 +177,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="o-footer__copy">
 							<div>2021 TODOS LOS DERECHOS RESERVADOS</div>
 							<div>Diseñado por <a href="//appsforfit.com" class="m-nav-footer__item" target="_blank"
-									rel="noopener">AppsForFit</a></div>
+									rel="noopener">Devs</a></div>
 						</div>
 					</div>
 				</div>
