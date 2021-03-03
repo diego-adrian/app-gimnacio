@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</a>
 				</div>
 				<div id="contacts-container">
-					<div class="js-user-menu">
+					<div>
 						<div class="burger__wrapper ">
 							<input type="checkbox" class="burger__toggle" id="burger-toggle"
 								onchange="if (!window.__cfRLUnblockHandlers) return false; activeMenu(event)"
@@ -63,17 +63,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div>5.</div>Consigue tu plan personalizado
 					</li>
 				</ul>
-				<div class="o-section-home__select-gender m-select-gender js-select-gender">
+				<div class="o-section-home__select-gender m-select-gender">
 					<div
 						id="btnMujer"
-						class="m-select-gender__button-gender js-select-gender-button  a-button-gender js-button-gender bodyClass dietAnswer"
+						class="m-select-gender__button-gender a-button-gender bodyClass dietAnswer"
 						>
 						<div class="a-button-gender__background">
-							<div class="a-button-gender__circle a-button-gender__circle--1 js-button-circle"></div>
-							<div class="a-button-gender__circle a-button-gender__circle--2 js-button-circle"></div>
+							<div class="a-button-gender__circle a-button-gender__circle--1"></div>
+							<div class="a-button-gender__circle a-button-gender__circle--2"></div>
 						</div>
 						<div class="a-button-gender__content">
-							<div class="a-button-gender__circle a-button-gender__circle--3 js-button-circle-main"></div>
+							<div class="a-button-gender__circle a-button-gender__circle--3"></div>
 							<img src="<?=base_url().'assets/img/woman.svg'?>" class="a-icon a-button-gender__icon __white" />
 							<div class="a-button-gender__text">Mujer</div>
 						</div>
@@ -81,14 +81,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="m-select-gender__text">o</div>
 					<div
 						id="btnHombre" 
-						class="m-select-gender__button-gender js-select-gender-button a-button-gender--man a-button-gender js-button-gender bodyClass dietAnswer"
+						class="m-select-gender__button-gender a-button-gender--man a-button-gender bodyClass dietAnswer"
 						>
 						<div class="a-button-gender__background">
-							<div class="a-button-gender__circle a-button-gender__circle--1 js-button-circle"></div>
-							<div class="a-button-gender__circle a-button-gender__circle--2 js-button-circle"></div>
+							<div class="a-button-gender__circle a-button-gender__circle--1"></div>
+							<div class="a-button-gender__circle a-button-gender__circle--2"></div>
 						</div>
 						<div class="a-button-gender__content">
-							<div class="a-button-gender__circle a-button-gender__circle--3 js-button-circle-main"></div>
+							<div class="a-button-gender__circle a-button-gender__circle--3"></div>
 							<img src="<?=base_url().'assets/img/men.svg'?>" class="a-icon a-button-gender__icon __white" />
 							<div class="a-button-gender__text">Hombre</div>
 						</div>

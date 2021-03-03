@@ -1,6 +1,6 @@
 document.addEventListener('load', function () {
   // Volviedo a la parte donde estan los botones para hombres y mujeres
-  var btnEmpezar = document.querySelector('#btn-empezar');
+  var btnEmpezar = document.getElementById('btn-empezar');
   btnEmpezar.addEventListener('click', function () {
     window.scrollTo({
       top: 250,
@@ -8,13 +8,13 @@ document.addEventListener('load', function () {
     });
   }, true)
   // Agregando el evento inicial (HOMBRES)
-  var btnHombre = document.querySelector('#btnHombre');
+  var btnHombre = document.getElementById('btnHombre');
   btnHombre.addEventListener('click', function () {
     console.log('Hombre')
-  }, false);
+  });
   // Agregando el evento inicial (MUJERES)
-  var btnMujer = document.querySelector('#btnMujer');
+  var btnMujer = document.getElementById('btnMujer');
   btnMujer.addEventListener('click', function () {
     console.log('Mujer')
-  }, false);
+  });
 }, true);
