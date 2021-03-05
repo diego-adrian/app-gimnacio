@@ -8,7 +8,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta charset="utf-8">
 	<title>App Gimnasio</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no" />
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="<?=base_url().'assets/styles/estilos.css'?>">
 </head>
 
@@ -17,11 +18,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="container">
 			<div class="o-header__content">
 				<div class="o-header__left">
-					<a class="o-header__logo a-logo">
-						<img id="Logo" class="a-icon a-logo__icon __white" src="<?=base_url().'assets/img/logo.svg'?>">
-					</a>
+					<img id="Logo" class="a-icon a-logo__icon" src="<?=base_url().'assets/img/logo-supershake-2.png'?>">
 				</div>
-				<div id="contacts-container">
+				<div id="contacts-container" style="display: none">
 					<div>
 						<div class="burger__wrapper ">
 							<input type="checkbox" class="burger__toggle" id="burger-toggle"
@@ -43,9 +42,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 	<div class="main-content">
 		<div class="o-section-home section-first"
-			style="background-image: url(<?=base_url().'assets/img/background.jpeg'?>)">
+			style="background-image: url(<?=base_url().'assets/img/background.png'?>)">
 			<div class="container">
-				<h2 class="o-section-home__text-title a-text-title">CONSIGUE TU DIETA</h2>
+				<h2 class="o-section-home__text-title a-text-title">Consigue tu evaluación corporal</h2>
 				<ul class="m-list-reasons homepage-list">
 					<li>
 						<div>1.</div>Selecciona tu género
@@ -87,63 +86,51 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</div>
 						<div class="a-button-gender__content" onClick="selectMen()">
 							<div class="a-button-gender__circle a-button-gender__circle--3"></div>
-							<img src="<?=base_url().'assets/img/men.svg'?>" class="a-icon a-button-gender__icon __white" />
+							<img src="<?=base_url().'assets/img/man.svg'?>" class="a-icon a-button-gender__icon __white" />
 							<div class="a-button-gender__text">Hombre</div>
 						</div>
 					</div>
 				</div>
-				<div class="mt-8 mb-4">
-					<div class="o-section-quiz__title">Consigue tus objetivos con nuestra Mejor Guía sobre la Dieta</div>
+				<div class="mt-15 mb-4">
+					<div class="o-section-quiz__title uppercase">Consigue tus objetivos con nuestra Mejor Guía sobre la Dieta Keto</div>
 					<div class="o-section-quiz__items">
 						<div class="m-item-quiz">
-							<img src="<?=base_url().'assets/img/iconoUno.svg'?>" height="60" class="pb-2" />
+							<img src="<?=base_url().'assets/img/checklist.svg'?>" height="80" class="pb-2" />
 							<div class="m-item-quiz__text">Lista de la Compra Semanal</div>
-							<p class="benefits-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam reprehenderit
-								vero, vel nostrum ipsa enim praesentium animi ea! Tenetur eius labore dolore blanditiis optio omnis
-								cupiditate ab inventore, quod debitis.</p>
+							<p class="benefits-text">No pierdas tu preciado tiempo planeando los comestibles semanales que vas a necesitar, y consigue una lista de la compra descargable para cocinar todos los platos deliciosos de tu plan personal Keto con ingredientes sencillos que puedes comprar en cualquier tienda local.</p>
 						</div>
 						<div class="m-item-quiz">
-							<img src="<?=base_url().'assets/img/iconoDos.svg'?>" height="60" class="pb-2" />
+							<img src="<?=base_url().'assets/img/manual.svg'?>" height="80" class="pb-2" />
 							<div class="m-item-quiz__text">Guía Detallada de la Dieta</div>
-							<p class="benefits-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, dolore! Eveniet,
-								laborum animi quam consequatur molestias alias id repellendus aliquam, doloremque libero eius, omnis
-								iste quaerat et. Accusamus, laudantium provident?</p>
+							<p class="benefits-text">Una guía completa con recetas Keto paso a paso específicamente diseñadas por un nutricionista profesional para ayudarte a conseguir tus objetivos a un ritmo saludable. Con esta guía, sabrás exactamente que es aceptado por la dieta Keto tanto cuando te quedas en casa como cuando decides salir a comer fuera.</p>
 						</div>
 						<div class="m-item-quiz">
-							<img src="<?=base_url().'assets/img/iconoTres.svg'?>" height="60" class="pb-2" />
+							<img src="<?=base_url().'assets/img/drawing.svg'?>" height="80" class="pb-2" />
 							<div class="m-item-quiz__text">Diseñada para ti</div>
-							<p class="benefits-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nesciunt deleniti
-								laboriosam incidunt dignissimos quidem unde itaque dolores, veniam qui, placeat blanditiis asperiores
-								pariatur, quia accusantium fuga laudantium facere alias.</p>
+							<p class="benefits-text">¿Confundido sobre todos los estilos existentes de dietas bajas en CHO? Deja que calculemos nosotros las calorías y CHO adecuados para ti y creemos un plan personalizado basado en tus alimentos favoritos, estilo de vida, edad, medidas y objetivos corporales.</p>
 						</div>
 						<div class="m-item-quiz">
-							<img src="<?=base_url().'assets/img/iconoCuatro.svg'?>" height="60" class="pb-2" />
+							<img src="<?=base_url().'assets/img/clock.svg'?>" height="80" class="pb-2" />
 							<div class="m-item-quiz__text">Preparación Rápida de Comidas</div>
-							<p class="benefits-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis inventore esse
-								provident distinctio. Voluptate nesciunt assumenda laboriosam harum cumque debitis laborum reiciendis
-								eligendi dignissimos sunt. Laborum animi adipisci minus unde?</p>
+							<p class="benefits-text">Recetas Keto divertidas y fáciles de seguir con información nutricional clara que hace que cocinar deje de ser una tarea y se convierta en un ansiado momento de paz. No se necesita un equipamiento de cocina especial para convertirse en un chef Keto.</p>
 						</div>
 						<div class="m-item-quiz">
-							<img src="<?=base_url().'assets/img/iconoCinco.svg'?>" height="60" class="pb-2" />
+							<img src="<?=base_url().'assets/img/clasificacion.svg'?>" height="80" class="pb-2" />
 							<div class="m-item-quiz__text">Una Suscripción Para Dominarlo</div>
-							<p class="benefits-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa quasi ab
-								recusandae eveniet excepturi voluptatem debitis tempora veritatis quas ducimus! Possimus illum minima
-								voluptate, numquam perferendis harum sapiente fuga ab.</p>
+							<p class="benefits-text">Receive fresh recipes each month right to your favorite device while enjoying sustainable weight loss and adjust your plan based on your progress (just reach out to our support). Stay in the know with the last Keto trends with our VIP posting.</p>
 						</div>
 						<div class="m-item-quiz">
-							<img src="<?=base_url().'assets/img/iconoSeis.svg'?>" height="60" class="pb-2" />
+							<img src="<?=base_url().'assets/img/perfil-del-usuario.svg'?>" height="80" class="pb-2" />
 							<div class="m-item-quiz__text">Perfil Dietético Gratis e Instantáneo</div>
-							<p class="benefits-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et illum
-								voluptatibus totam quisquam culpa sapiente. Aliquid quis non, esse molestiae distinctio, repellat
-								laudantium ullam quo exercitationem temporibus sit iste?</p>
+							<p class="benefits-text">Inmediatamente después de rellenar nuestro test con tu información, verás tu Índice de Masa Corporal personal (IMC) y edad metabólica. Consigue, también, recomendaciones para tu ingesta de agua y calorías diaria. Todo esto gratis.</p>
 						</div>
 					</div>
 				</div>
 				<div class="text-center mt-8 mb-8 pr-4 pl-4">
-					<div id="btn-empezar" class="m-block-jumbotron__button a-button--with-gradient a-button--gigant a-button--with-icon a-button cursor-pointer"
+					<div onClick="irSeccionPrincipal()" id="btn-empezar" class="m-block-jumbotron__button a-button--with-gradient a-button--gigant a-button--with-icon a-button cursor-pointer"
 						style="visibility: visible;">
 						<a class="a-button__link">
-							<span class="a-button__text">Empezar</span>
+							<span class="a-button__text uppercase">Empezar</span>
 						</a>
 					</div>
 				</div>
@@ -170,12 +157,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<div>
 						</nav>
 						<div class="o-footer__logo">
-							<img id="Logo" class="a-icon o-footer__icon" src="<?=base_url().'assets/img/logo.svg'?>">
+							<img id="Logo" class="a-icon o-footer__icon" src="<?=base_url().'assets/img/logo-supershake-2.png'?>">
 						</div>
 						<div class="o-footer__copy">
-							<div>2021 TODOS LOS DERECHOS RESERVADOS</div>
-							<div>Diseñado por <a href="//appsforfit.com" class="m-nav-footer__item" target="_blank"
-									rel="noopener">Devs</a></div>
+							<div class="m-nav-footer__item">2021 TODOS LOS DERECHOS RESERVADOS</div>
+							<div class="m-nav-footer__item">Diseñado por DSM <a href="#" class="m-nav-footer__item" target="_blank"
+									rel="noopener">Soluciones Digitales</a></div>
 						</div>
 					</div>
 				</div>
