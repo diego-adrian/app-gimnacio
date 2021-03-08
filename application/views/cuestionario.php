@@ -19,13 +19,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="o-header__content align-center justify-center">
 				<img id="Logo" class="a-icon a-logo__icon" src="<?=base_url().'assets/img/logo-supershake-2.png'?>">
 			</div>
-		</div>
-	</div>
-	
-	<div class="main-content">
-		<div class="o-section-head">
-			<div style="background-image: url(<?=base_url().'assets/img/running-bg.png'?>)" class="o-section-head__image"></div>
-
 
 			<div class="img--title">
 				
@@ -41,10 +34,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</div>
 					</div>
 				</div>
-				<div class="m-block-title__text uppercase mt-12">Actividad física</div>
+				<div class="m-block-title__text uppercase mt-15">Actividad física</div>
 
 			</div>
-
+		</div>
+	</div>
+	
+	<div class="main-content">
+		<div class="o-section-head">
+			<div style="background-image: url(<?=base_url().'assets/img/running-bg.png'?>)" class="o-section-head__image"></div>
 		</div>
 
 		<div class="o-section-step">
@@ -158,14 +156,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 	</div>
 	<!-- MASCARA SVG -->
-	<!-- <svg visibility="inherit" class="mask" height="0" width="100%">
+	<svg visibility="inherit" class="mask" height="0" width="100%">
 		<defs>
 			<clipPath id="svgPath">
 				<path d="M1,0v215.8c0,0,177.8,121.3,576.2,129.1c398.4,7.8,768.6-169.6,1118.1-145.2s380.3,145.4,850.6,145.3V0H1z"
 					id="path-1"></path>
 			</clipPath>
 		</defs>
-	</svg> -->
+	</svg>
 	
 	<svg visibility="inherit" class="mask" height="0" width="100%">
 		<defs>
