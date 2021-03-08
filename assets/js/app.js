@@ -6,13 +6,9 @@ function irSeccionPrincipal () {
 }
 
 function selectMen () {
-  console.log('------------------------------------');
-  console.log('Hombre');
-  console.log('------------------------------------');
+  window.location = './index.php/cuestionario';
 }
 
 function selectWomen () {
-  console.log('------------------------------------');
-  console.log('Mujer');
-  console.log('------------------------------------');
+  window.location = './index.php/cuestionario';
 }
