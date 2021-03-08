@@ -1665,6 +1665,11 @@ a.hl:hover {
 	height: 200px;
 }
 
+.a-logo__icon-carne {
+	width: 120px;
+	height: 120px;
+}
+
 .o-header__left {
 	width: 250px;
 	height: 200px;
@@ -3325,6 +3330,11 @@ a.hl:hover {
 	border: 2px solid white;
 }
 
+.m-progress-bar__content-carne {
+	margin-top: 110px;
+	border: none;
+}
+
 @media(max-width: 1023px) {
 	.m-progress-bar__content {
 		border-radius: 0
@@ -3376,6 +3386,12 @@ a.hl:hover {
 	margin-bottom: -10px;
 	background: #7cc010;
 	border-radius: 7px 7px 0 0;
+}
+
+.m-progress-bar__percent-carne {
+	margin-top: 150px;
+	padding: 20px;
+	border-radius: 7px;
 }
 
 .m-progress-bar__percent span:first-child {
@@ -3523,6 +3539,14 @@ a.hl:hover {
 @media(max-width: 767px) {
 	.m-online-bar .a-icon {
 		height: 40px
+	}
+
+	.pt-small {
+		padding-top: 0px !important;
+	}
+
+	.o-section-carne {
+		margin-bottom: 20px !important;
 	}
 }
 
@@ -5841,6 +5865,13 @@ a.hl:hover {
 	border: 1px solid #f17900;
 }
 
+.a-icon-title__circle-carne {
+	position: absolute;
+	border-radius: 50%;
+	background-image: linear-gradient(#83bb26, #35a233);
+	border: 1px solid #35a233;
+}
+
 svg.mask {
 	position: absolute;
 	width: 0;
@@ -5884,6 +5915,25 @@ svg.mask {
 	border-radius: 50%;
 	background-image: linear-gradient( #f7a85b, #f58311);
 	border: 1px solid #f58311;
+	height: 50px;
+	width: 50px;
+	top: 175px;
+  left: -43px;
+}
+.mini-circle-uno-carne {
+	position: absolute;
+	border-radius: 50%;
+	background-image: linear-gradient( #83bb26, #35a233);
+	border: 1px solid #35a233;
+	height: 50px;
+	width: 50px;
+	left: 200px;
+}
+.mini-circle-dos-carne {
+	position: absolute;
+	border-radius: 50%;
+	background-image: linear-gradient( #83bb26, #35a233);
+	border: 1px solid #35a233;
 	height: 50px;
 	width: 50px;
 	top: 175px;
@@ -5944,4 +5994,71 @@ svg.mask {
 	border: 1px solid #83bb26;
 	width: 120px;
 	height: 35px;
+}
+
+.section-carne {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	width: 80%;
+	margin: auto;
+}
+.o-section-carne {
+	border-radius: 30px;
+	border: 3px solid white;
+	height: 250px;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.o-section-carne .m-block-title__text {
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+.o-section-carne:hover {
+	border: 3px solid #83bb26;
+	cursor: pointer;
+}
+
+.img--carne-2 {
+	margin-top: 150px;
+	transform: rotate(-120deg);
+	z-index: -1;
+	left: 0;
+}
+
+.img--carne-1 {
+	margin-bottom: 200px;
+	transform: rotate(180deg);
+	z-index: -1;
+	right: 0;
+}
+
+.mini-circle-carne-izquierda {
+	position: absolute;
+	border-radius: 50%;
+	background-image: linear-gradient( #83bb26, #35a233);
+	border: 1px solid #35a233;
+	height: 50px;
+	width: 50px;
+	left: 260px;
+  top: 130px;
+	z-index: -1;
+}
+.mini-circle-carne-derecha {
+	position: absolute;
+	border-radius: 50%;
+	background-image: linear-gradient( #83bb26, #35a233);
+	border: 1px solid #35a233;
+	height: 50px;
+	width: 50px;
+	right: 310px;
+  top: 410px;
+	z-index: -1;
 }
