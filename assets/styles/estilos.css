@@ -1367,6 +1367,7 @@ a.hl:hover {
 	border: 1px solid transparent
 }
 
+/* Adrian */
 @media(max-width: 767px) {
 
 	.a-button {
@@ -1376,6 +1377,17 @@ a.hl:hover {
 	.mini-circle-medio,
 	.mini-circle-final {
 		display: none !important;
+	}
+
+	.a-logo__icon-carne {
+		width: 150px !important;
+		height: 150px !important;
+	}
+
+	.section-carne {
+		margin: auto !important;
+		width: 75% !important;
+		max-width: 75% !important;
 	}
 }
 
@@ -6025,9 +6037,10 @@ svg.mask {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-around;
-	width: 80%;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 790px;
+	max-width: 790px;
 	margin: auto;
 }
 .o-section-carne {
@@ -6070,6 +6083,18 @@ svg.mask {
 	z-index: -1;
 	right: 0;
 }
+
+.img--producto-1 {
+	margin-bottom: 200px;
+	z-index: -1;
+	right: 50px;
+}
+.img--producto-2 {
+	margin-top: 150px;
+	z-index: -1;
+	left: 50px;
+}
+
 .img--tomato-1 {
 	margin-bottom: 200px;
 	z-index: -1;
@@ -6096,5 +6121,28 @@ svg.mask {
 	width: 50px;
 	right: 310px;
   top: 410px;
+	z-index: -1;
+}
+
+.mini-circle-producto-derecha {
+	position: absolute;
+	border-radius: 50%;
+	background-image: linear-gradient( #83bb26, #35a233);
+	border: 1px solid #35a233;
+	height: 50px;
+	width: 50px;
+	right: 310px;
+  top: 0;
+	z-index: -1;
+}
+.mini-circle-producto-derecha-abajo {
+	position: absolute;
+	border-radius: 50%;
+	background-image: linear-gradient( #83bb26, #35a233);
+	border: 1px solid #35a233;
+	height: 50px;
+	width: 50px;
+	right: 310px;
+  top: 700px;
 	z-index: -1;
 }
