@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <head>
 	<meta charset="utf-8">
-	<title>Carne</title>
+	<title>Vegetales</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no" />
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
@@ -25,16 +25,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="o-section-head__block-title m-block-title">
 					<div class="m-block-title__icon-title a-icon-title js-icon-title">
 						<div class="a-icon-title__circles">
-							<div class="a-icon-title__circle a-icon-title__circle--front a-icon-title__circle-carne"></div>
-							<div class="mini-circle-uno-carne"></div>
-							<div class="mini-circle-dos-carne"></div>
+							<div class="a-icon-title__circle a-icon-title__circle--front a-icon-title__circle-vegetales"></div>
+							<div class="mini-circle-uno-vegetales"></div>
+							<div class="mini-circle-dos-vegetales"></div>
 						</div>
 						<div class="a-icon-title__content">
 							<img class="a-icon a-icon-title__icon" src="<?=base_url().'assets/img/res.svg'?>"/>
 						</div>
 					</div>
 				</div>
-				<div class="m-block-title__text uppercase mt-15">Carne</div>
+				<div class="m-block-title__text uppercase mt-15">Verduras</div>
 
 			</div>
 		</div>
@@ -48,42 +48,42 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="o-section-step">
 			<div class="o-section-parallax js-section-parallax">
 				<div class="mini-circle-carne-izquierda"></div>
-				<img width="420" height="300" src="<?=base_url().'assets/img/carne-1.png'?>"
-					class="o-section-parallax__item o-section-parallax__item--image-2 js-parallax-style-1 img--carne-1">
-				<img width="350" height="250" src="<?=base_url().'assets/img/carne-1.png'?>"
-					class="o-section-parallax__item o-section-parallax__item--image-1 js-parallax-style-2 img--carne-2">
+				<img width="420" height="300" src="<?=base_url().'assets/img/tamato_PNG2684.png'?>"
+					class="o-section-parallax__item o-section-parallax__item--image-2 js-parallax-style-1 img--tomato-1">
+				<img width="250" height="250" src="<?=base_url().'assets/img/cauliflower_i.png'?>"
+					class="o-section-parallax__item o-section-parallax__item--image-1 js-parallax-style-2 img--cauliflower-2">
 					<div class="mini-circle-carne-derecha"></div>
 			</div>
 			<div class="container container-mobile">
 				<div class="o-section-step__form section-carne">
 		
 					<div class="o-section-carne">
-						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/chicken.svg'?>">
-						<div class="m-block-title__text">Pollo</div>
+						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/broccoli.svg'?>">
+						<div class="m-block-title__text">Brocoli</div>
 					</div>
 					<div class="o-section-carne">
-						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/cerdo.svg'?>">
-						<div class="m-block-title__text">Cerdo</div>
+						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/mushroom.svg'?>">
+						<div class="m-block-title__text">Setas</div>
 					</div>
 					<div class="o-section-carne">
-						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/ternera.svg'?>">
-						<div class="m-block-title__text">Ternera</div>
+						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/zucchini.svg'?>">
+						<div class="m-block-title__text">Calabacín</div>
 					</div>
 
 				</div>
 				<div class="o-section-step__form section-carne pt-20 pt-small">
 					
 					<div class="o-section-carne">
-						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/fish.svg'?>">
-						<div class="m-block-title__text">Pescado</div>
+						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/coliflor.svg'?>">
+						<div class="m-block-title__text">Coliflor</div>
 					</div>
 					<div class="o-section-carne">
-						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/bacon.svg'?>">
-						<div class="m-block-title__text">Tocino</div>
+						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/esparragos.svg'?>">
+						<div class="m-block-title__text">Espárragos</div>
 					</div>
 					<div class="o-section-carne">
-						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/no-meat.svg'?>">
-						<div class="m-block-title__text">Sin Carne</div>
+						<img id="Logo" class="a-icon a-logo__icon a-logo__icon-carne" src="<?=base_url().'assets/img/aguacate.svg'?>">
+						<div class="m-block-title__text">Aguacate</div>
 					</div>
 
 				</div>
@@ -93,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         ">
 					<div
 						class="hide-progress-bar m-progress-bar__percentage">
-						<div class="m-progress-bar__percent m-progress-bar__percent-carne"><span class="js-progress-percent font-size-18">26</span><span>%</span></div>
+						<div class="m-progress-bar__percent m-progress-bar__percent-carne"><span class="js-progress-percent font-size-18">37</span><span>%</span></div>
 						<div class="m-progress-bar__percent-text"></div>
 					</div>
 					<div class="m-progress-bar__content m-progress-bar__content-carne">

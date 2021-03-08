@@ -5871,6 +5871,12 @@ a.hl:hover {
 	background-image: linear-gradient(#83bb26, #35a233);
 	border: 1px solid #35a233;
 }
+.a-icon-title__circle-vegetales {
+	position: absolute;
+	border-radius: 50%;
+	background-image: linear-gradient(#da667b, #f71735);
+	border: 1px solid #f71735;
+}
 
 svg.mask {
 	position: absolute;
@@ -5934,6 +5940,25 @@ svg.mask {
 	border-radius: 50%;
 	background-image: linear-gradient( #83bb26, #35a233);
 	border: 1px solid #35a233;
+	height: 50px;
+	width: 50px;
+	top: 175px;
+  left: -43px;
+}
+.mini-circle-uno-vegetales {
+	position: absolute;
+	border-radius: 50%;
+	background-image: linear-gradient( #da667b, #f71735);
+	border: 1px solid #f71735;
+	height: 50px;
+	width: 50px;
+	left: 200px;
+}
+.mini-circle-dos-vegetales {
+	position: absolute;
+	border-radius: 50%;
+	background-image: linear-gradient( #da667b, #f71735);
+	border: 1px solid #f71735;
 	height: 50px;
 	width: 50px;
 	top: 175px;
@@ -6032,12 +6057,23 @@ svg.mask {
 	z-index: -1;
 	left: 0;
 }
+.img--cauliflower-2 {
+	margin-top: 150px;
+	transform: rotate(-120deg);
+	z-index: -1;
+	left: 0;
+}
 
 .img--carne-1 {
 	margin-bottom: 200px;
 	transform: rotate(180deg);
 	z-index: -1;
 	right: 0;
+}
+.img--tomato-1 {
+	margin-bottom: 200px;
+	z-index: -1;
+	right: 20px;
 }
 
 .mini-circle-carne-izquierda {
