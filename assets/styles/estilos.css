@@ -3836,13 +3836,14 @@ a.hl:hover {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: top;
-	min-height: 600px;
+	min-height: 650px;
 	align-items: center;
 }
 
 .img--title {
 	z-index: 1;
 	width: 100%;
+	margin-top: 25px;
 	height: auto;
 	display: flex;
 	flex-direction: column;
@@ -3850,12 +3851,6 @@ a.hl:hover {
 	justify-content: center;
 }
 
-/* .o-section-head__block-title {
-	position: relative;
-	max-width: 510px;
-	margin: auto;
-	text-align: center
-} */
 
 .o-section-head__image {
 	position: absolute;
